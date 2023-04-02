@@ -1,27 +1,28 @@
-Cree el repositorio goit-markup-hw-02.
-Clone el repositorio creado y copie los archivos de trabajo anteriores en él.
+x-Cree el repositorio goit-markup-hw-02.
+x-Clone el repositorio creado y copie los archivos de trabajo anteriores en él.
 Realice el marcado y el diseño de la página para la tarea de casa #2.
-Para la optimización de imágenes, utilice squoosh.
-Configure las GitHub Pages y agregue un enlace a la página en vivo en el encabezado del repositorio de GitHub.
+!!Imagenes bloqueadas, una sola imagen aunque son bloques!!!
+!-Para la optimización de imágenes, utilice squoosh.
+x-Configure las GitHub Pages y agregue un enlace a la página en vivo en el encabezado del repositorio de GitHub.
 
 ****Los criterios de aceptación de trabajo por parte del tutor****
 
 A-El proyecto
-«A1» En la raíz del proyecto, hay una carpeta llamada images con imágenes.
+x-«A1» En la raíz del proyecto, hay una carpeta llamada images con imágenes.
 
-«A2» En la raíz del proyecto, hay una carpeta llamada css con archivos de estilos.
+x-«A2» En la raíz del proyecto, hay una carpeta llamada css con archivos de estilos.
 
 «A3» Todos los estilos están contenidos en un archivo styles.css, que se encuentra en la carpeta css.
 
-«A4» No hay letras mayúsculas, espacios y transliteración en los nombres de los archivos, solo las letras y palabras en inglés.
+x-«A4» No hay letras mayúsculas, espacios y transliteración en los nombres de los archivos, solo las letras y palabras en inglés.
 
-«A5» El código fuente está formateado con Prettier.
+x-«A5» El código fuente está formateado con Prettier.
+!!¿Como si las imagenes de portafolio no se pueden descargar?
+!-«A6» Todas las imágenes y el contenido del texto se toman del diseño.
 
-«A6» Todas las imágenes y el contenido del texto se toman del diseño.
+!-«A7» Todas las imágenes rasterizadas se optimizan utilizando squoosh.
 
-«A7» Todas las imágenes rasterizadas se optimizan utilizando squoosh.
-
-«A8» El código está escrito siguiendo la guía.
+x-«A8» El código está escrito siguiendo la guía.
 
 ---------------------------------------------------------------------------------------------------------------------
 
@@ -38,7 +39,7 @@ B-El marcado
 
 «B6» Los nombres de las clases no contienen letras mayúsculas, espacios, transliteración y nombres de etiquetas, solo letras y palabras en inglés. Si el nombre de una clase consta de varias palabras, están separadas por un guión.
 
-«B7» El atributo href de los enlaces de navegación de Studio y Portafolio contiene una ruta relativa a los archivos HTML de estas páginas. Cuando hace clic en un enlace, accede a la página correspondiente en la pestaña del navegador actual.
+x-«B7» El atributo href de los enlaces de navegación de Studio y Portafolio contiene una ruta relativa a los archivos HTML de estas páginas. Cuando hace clic en un enlace, accede a la página correspondiente en la pestaña del navegador actual.
 
 «B8» Las etiquetas <img> tienen los atributos de dimensión, al menos width.
 
