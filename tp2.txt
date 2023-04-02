@@ -1,8 +1,8 @@
 x-Cree el repositorio goit-markup-hw-02.
 x-Clone el repositorio creado y copie los archivos de trabajo anteriores en él.
-Realice el marcado y el diseño de la página para la tarea de casa #2.
-!!Imagenes bloqueadas, una sola imagen aunque son bloques!!!
-!-Para la optimización de imágenes, utilice squoosh.
+!-Realice el marcado y el diseño de la página para la tarea de casa #2.
+
+x-Para la optimización de imágenes, utilice squoosh.
 x-Configure las GitHub Pages y agregue un enlace a la página en vivo en el encabezado del repositorio de GitHub.
 
 ****Los criterios de aceptación de trabajo por parte del tutor****
@@ -12,22 +12,22 @@ x-«A1» En la raíz del proyecto, hay una carpeta llamada images con imágenes.
 
 x-«A2» En la raíz del proyecto, hay una carpeta llamada css con archivos de estilos.
 
-«A3» Todos los estilos están contenidos en un archivo styles.css, que se encuentra en la carpeta css.
+x-«A3» Todos los estilos están contenidos en un archivo styles.css, que se encuentra en la carpeta css.
 
 x-«A4» No hay letras mayúsculas, espacios y transliteración en los nombres de los archivos, solo las letras y palabras en inglés.
 
 x-«A5» El código fuente está formateado con Prettier.
-!!¿Como si las imagenes de portafolio no se pueden descargar?
-!-«A6» Todas las imágenes y el contenido del texto se toman del diseño.
 
-!-«A7» Todas las imágenes rasterizadas se optimizan utilizando squoosh.
+x-«A6» Todas las imágenes y el contenido del texto se toman del diseño.
+
+x-«A7» Todas las imágenes rasterizadas se optimizan utilizando squoosh.
 
 x-«A8» El código está escrito siguiendo la guía.
 
 ---------------------------------------------------------------------------------------------------------------------
 
 B-El marcado
-«B1» El diseño de la página Portafolio está en el archivo portfolio.html.
+x-«B1» El diseño de la página Portafolio está en el archivo portfolio.html.
 
 «B2» El marcado HTML se realiza para todos los elementos de diseño.
 
@@ -47,13 +47,13 @@ x-«B7» El atributo href de los enlaces de navegación de Studio y Portafolio c
 
 «B10» Los grupos de elementos del mismo tipo están en las listas <ul>.
 
-«B11» El filtro en la página de Portafolio es una lista de botones, cada uno de los cuales tiene el atributo type="button".
+x-«B11» El filtro en la página de Portafolio es una lista de botones, cada uno de los cuales tiene el atributo type="button".
 
-«B12» El marcado de encabezado y pie de página es el mismo en todas las páginas.
+x-«B12» El marcado de encabezado y pie de página es el mismo en todas las páginas.
 
 «B13» Todas las fuentes y sus variaciones (peso y tipo) necesarias para el diseño están vinculadas desde el servicio Google Fonts con un enlace. El peso requerido para Raleway es 700, y para Roboto es 400, 500, 700 y 900.
 
-«B14» No hay elementos adicionales, como intervalos o enlaces, dentro del marcado del botón.
+x-«B14» No hay elementos adicionales, como intervalos o enlaces, dentro del marcado del botón.
 
 ---------------------------------------------------------------------------------------------------------------------
 
