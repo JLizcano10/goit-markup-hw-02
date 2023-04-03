@@ -29,11 +29,11 @@ x-«A8» El código está escrito siguiendo la guía.
 B-El marcado
 x-«B1» El diseño de la página Portafolio está en el archivo portfolio.html.
 
-«B2» El marcado HTML se realiza para todos los elementos de diseño.
+x-«B2» El marcado HTML se realiza para todos los elementos de diseño.
 
-«B3» Las etiquetas se utilizan según su semántica.
+x-«B3» Las etiquetas se utilizan según su semántica.
 
-«B4» El HTML puede ser validado usando validator sin errores.
+x-«B4» El HTML puede ser validado usando validator sin errores.
 
 «B5» Los nombres de las clases son descriptivos y pueden ser entendidos por otros desarrolladores.
 
@@ -43,9 +43,9 @@ x-«B7» El atributo href de los enlaces de navegación de Studio y Portafolio c
 
 «B8» Las etiquetas <img> tienen los atributos de dimensión, al menos width.
 
-«B9» Las imágenes se exportan desde el diseño en formato jpg.
+x-«B9» Las imágenes se exportan desde el diseño en formato jpg.
 
-«B10» Los grupos de elementos del mismo tipo están en las listas <ul>.
+x-«B10» Los grupos de elementos del mismo tipo están en las listas <ul>.
 
 x-«B11» El filtro en la página de Portafolio es una lista de botones, cada uno de los cuales tiene el atributo type="button".
 
