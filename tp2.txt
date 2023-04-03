@@ -1,6 +1,6 @@
 x-Cree el repositorio goit-markup-hw-02.
 x-Clone el repositorio creado y copie los archivos de trabajo anteriores en él.
-!-Realice el marcado y el diseño de la página para la tarea de casa #2.
+x-Realice el marcado y el diseño de la página para la tarea de casa #2.
 
 x-Para la optimización de imágenes, utilice squoosh.
 x-Configure las GitHub Pages y agregue un enlace a la página en vivo en el encabezado del repositorio de GitHub.
@@ -41,7 +41,7 @@ x-«B4» El HTML puede ser validado usando validator sin errores.
 
 x-«B7» El atributo href de los enlaces de navegación de Studio y Portafolio contiene una ruta relativa a los archivos HTML de estas páginas. Cuando hace clic en un enlace, accede a la página correspondiente en la pestaña del navegador actual.
 
-«B8» Las etiquetas <img> tienen los atributos de dimensión, al menos width.
+x-«B8» Las etiquetas <img> tienen los atributos de dimensión, al menos width.
 
 x-«B9» Las imágenes se exportan desde el diseño en formato jpg.
 
