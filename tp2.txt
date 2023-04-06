@@ -51,7 +51,7 @@ x-«B11» El filtro en la página de Portafolio es una lista de botones, cada un
 
 x-«B12» El marcado de encabezado y pie de página es el mismo en todas las páginas.
 
-«B13» Todas las fuentes y sus variaciones (peso y tipo) necesarias para el diseño están vinculadas desde el servicio Google Fonts con un enlace. El peso requerido para Raleway es 700, y para Roboto es 400, 500, 700 y 900.
+x-«B13» Todas las fuentes y sus variaciones (peso y tipo) necesarias para el diseño están vinculadas desde el servicio Google Fonts con un enlace. El peso requerido para Raleway es 700, y para Roboto es 400, 500, 700 y 900.
 
 x-«B14» No hay elementos adicionales, como intervalos o enlaces, dentro del marcado del botón.
 
