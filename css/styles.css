@@ -22,3 +22,49 @@ body {
   color: var(--color-black);
   /* creo que falta letter-spacing */
 }
+/* Sin etiquetas de elemento? solo body? */
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+}
+
+.menu .menu-link,
+.contact .contact-link {
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-14);
+  color: var(--color-black);
+}
+
+.contact .contact-link {
+  color: var(--color-gray);
+}
+/* posible error por nombramiento de clases, footer */
+.hero,
+footer {
+  background-color: var(--color-hero);
+}
+
+.hero .hero-title,
+.hero .hero-button {
+  color: var(--color-white);
+}
+
+.hero .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+}
+
+.hero .hero-button {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: var(--font-size-16);
+  background-color: var(--color-blue);
+}
