@@ -36,16 +36,27 @@ a {
   font-size: 26px;
 }
 
-.menu .menu-link,
-.contact .contact-link {
-  font-weight: var(--font-weight-500);
+.logo,
+.menu-link:hover,
+.menu-link:focus,
+.contact-link:hover,
+.contact-link:focus,
+.address-link:hover,
+.address-link:focus {
+  color: var(--color-blue);
+}
+
+.menu-link,
+.contact-link,
+.box-title {
   color: var(--color-black);
 }
 /* Se puede unificar todo asi??? */
 .contact-link,
 .title-gray,
 .service-text,
-.team-role {
+.team-role,
+.box-text {
   color: var(--color-gray);
 }
 /* posible error por nombramiento de clases, footer */
@@ -54,9 +65,14 @@ footer {
   background-color: var(--color-hero);
 }
 
+.title-invisible {
+  visibility: hidden;
+}
+
 .hero-title,
 .hero-button,
-.address-link {
+.address-link,
+button:hover {
   color: var(--color-white);
 }
 
@@ -65,10 +81,14 @@ footer {
   font-size: 44px;
 }
 
-.hero-button {
+.hero-button,
+button {
   font-family: inherit;
   font-weight: inherit;
-  font-size: var(--font-size-16);
+}
+
+.hero-button,
+button:hover {
   background-color: var(--color-blue);
 }
 
@@ -80,27 +100,31 @@ footer {
 .address-link {
   font-weight: var(--font-weight-400);
 }
-/* titulo gris o es hover? */
-/* .title-gray,
-.service-text,
-.team-role {
-  color: var(--color-gray);
-} */
 
 .picture-title,
 .team-title {
   font-size: 36px;
 }
 
-.team {
+.team,
+button {
   background-color: var(--color-back-white);
 }
-.team-member {
+.team-member,
+.box-item {
   background-color: var(--color-white);
 }
-.team-name {
-  font-weight: var(--font-weight-500);
+
+.team-name,
+button {
   font-size: var(--font-size-16);
+}
+
+.menu-link,
+.contact-link,
+.team-name,
+button {
+  font-weight: var(--font-weight-500);
 }
 
 .address-link {
@@ -109,4 +133,8 @@ footer {
 
 .address-contact {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.box-title {
+  font-size: 18px;
 }
