@@ -1,0 +1,24 @@
+/* Variables que mas se repiten */
+:root {
+  --font-family-roboto: "Roboto", sans-serif;
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-700: 700;
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+  --color-black: #212121;
+  --color-white: #ffffff;
+  --color-blue: #2196f3;
+  --color-gray: #757575;
+  --color-hero: #2f303a;
+  --color-light-gray: #e5e5e5;
+  --color-back-white: #f5f4fa;
+}
+body {
+  font-family: var(--font-family-roboto);
+  font-weight: var(--font-weight-700);
+  font-size: var(--font-size-14);
+  background-color: var(--color-white);
+  color: var(--color-black);
+  /* creo que falta letter-spacing */
+}
