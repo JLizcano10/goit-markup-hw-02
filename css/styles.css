@@ -27,10 +27,6 @@ a {
   text-decoration: none;
 }
 
-/* ul li {
-  list-style: none;
-} */
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
@@ -47,7 +43,6 @@ a {
 }
 
 .menu-link,
-.contact-link,
 .box-title {
   color: var(--color-black);
 }
@@ -95,9 +90,11 @@ button:hover {
 .service-title {
   text-transform: uppercase;
 }
+
 .service-text,
 .team-role,
-.address-link {
+.address-link,
+.box-text {
   font-weight: var(--font-weight-400);
 }
 
@@ -110,12 +107,16 @@ button:hover {
 button {
   background-color: var(--color-back-white);
 }
+
 .team-member,
 .box-item {
   background-color: var(--color-white);
 }
 
 .team-name,
+.team-role,
+.box-text,
+.hero-button,
 button {
   font-size: var(--font-size-16);
 }
@@ -137,4 +138,5 @@ button {
 
 .box-title {
   font-size: 18px;
+  font-weight: 700;
 }
