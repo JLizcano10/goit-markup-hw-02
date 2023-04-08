@@ -6,6 +6,7 @@
   --font-weight-700: 700;
   --font-size-14: 14px;
   --font-size-16: 16px;
+  --letter-spacing: 0.03em;
   --color-black: #212121;
   --color-white: #ffffff;
   --color-blue: #2196f3;
@@ -14,25 +15,56 @@
   --color-light-gray: #e5e5e5;
   --color-back-white: #f5f4fa;
 }
+
 body {
   font-family: var(--font-family-roboto);
   font-weight: var(--font-weight-700);
   font-size: var(--font-size-14);
+  letter-spacing: var(--letter-spacing);
   background-color: var(--color-white);
   color: var(--color-black);
-  /* creo que falta letter-spacing */
-}
-/* Sin etiquetas de elemento? solo body? */
-a {
-  text-decoration: none;
 }
 
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
+  color: var(--color-blue);
 }
 
-.logo,
+.title-invisible {
+  visibility: hidden;
+}
+
+.service-title {
+  text-transform: uppercase;
+}
+
+.hero-button,
+.button-item:hover,
+.button-item:focus {
+  background-color: var(--color-blue);
+}
+
+.hero,
+footer {
+  background-color: var(--color-hero);
+}
+
+.team,
+.button-item {
+  background-color: var(--color-back-white);
+}
+
+.team-member,
+.box-item {
+  background-color: var(--color-white);
+}
+
+.menu-link,
+.box-title {
+  color: var(--color-black);
+}
+/* seccion con hover y focus */
 .menu-link:hover,
 .menu-link:focus,
 .contact-link:hover,
@@ -42,11 +74,18 @@ a {
   color: var(--color-blue);
 }
 
-.menu-link,
-.box-title {
-  color: var(--color-black);
+.button-item:hover,
+.button-item:focus {
+  color: var(--color-white);
 }
-/* Se puede unificar todo asi??? */
+/* ------------------------------ */
+
+.hero-title,
+.hero-button,
+.address-link {
+  color: var(--color-white);
+}
+
 .contact-link,
 .title-gray,
 .service-text,
@@ -54,43 +93,18 @@ a {
 .box-text {
   color: var(--color-gray);
 }
-/* posible error por nombramiento de clases, footer */
-.hero,
-footer {
-  background-color: var(--color-hero);
-}
 
-.title-invisible {
-  visibility: hidden;
-}
-
-.hero-title,
+.team-name,
+.team-role,
+.box-text,
 .hero-button,
-.address-link,
-button:hover,
-button:focus {
-  color: var(--color-white);
+.button-item {
+  font-size: var(--font-size-16);
 }
 
-.hero-title {
-  font-weight: 900;
-  font-size: 44px;
-}
-
-.hero-button,
-button {
-  font-family: inherit;
-  font-weight: inherit;
-}
-
-.hero-button,
-button:hover,
-button:focus {
-  background-color: var(--color-blue);
-}
-
-.service-title {
-  text-transform: uppercase;
+.picture-title,
+.team-title {
+  font-size: 36px;
 }
 
 .service-text,
@@ -100,45 +114,76 @@ button:focus {
   font-weight: var(--font-weight-400);
 }
 
-.picture-title,
-.team-title {
-  font-size: 36px;
-}
-
-.team,
-button {
-  background-color: var(--color-back-white);
-}
-
-.team-member,
-.box-item {
-  background-color: var(--color-white);
-}
-
-.team-name,
-.team-role,
-.box-text,
-.hero-button,
-button {
-  font-size: var(--font-size-16);
-}
-
 .menu-link,
 .contact-link,
 .team-name,
-button {
+.button-item {
   font-weight: var(--font-weight-500);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+}
+
+.box-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
 }
 
 .address-link {
   font-style: normal;
 }
 
-.address-contact {
-  color: rgba(255, 255, 255, 0.6);
+/* letter-spacing asi? */
+.menu-link,
+.contact-link {
+  letter-spacing: 0.02em;
 }
 
+.hero-title,
+.hero-button,
 .box-title {
-  font-size: 18px;
-  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.menu-link,
+.contact-link,
+.service-title {
+  line-height: 1.1;
+}
+
+.logo,
+.picture-title,
+.team-title,
+.team-name,
+.team-role {
+  line-height: 1.2;
+}
+
+.button-item {
+  line-height: 1.6;
+}
+
+.service-text,
+.address-link,
+.address-contact {
+  line-height: 1.7;
+}
+
+.hero-button,
+.box-text {
+  line-height: 1.9;
+}
+/* Preguntar propiedades inherit */
+.hero-button,
+.button-item {
+  font-family: inherit;
+  /* font-weight: inherit; */
+}
+
+.address-contact {
+  color: rgba(255, 255, 255, 0.6);
 }
