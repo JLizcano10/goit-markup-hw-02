@@ -39,7 +39,7 @@ body {
 .service-title {
   text-transform: uppercase;
 }
-
+/* Preguntar si es necesario una clase en las secciones principales??? */
 .hero,
 footer {
   background-color: var(--color-hero);
