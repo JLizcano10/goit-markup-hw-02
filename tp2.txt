@@ -37,7 +37,7 @@ x-«B4» El HTML puede ser validado usando validator sin errores.
 
 «B5» Los nombres de las clases son descriptivos y pueden ser entendidos por otros desarrolladores.
 
-«B6» Los nombres de las clases no contienen letras mayúsculas, espacios, transliteración y nombres de etiquetas, solo letras y palabras en inglés. Si el nombre de una clase consta de varias palabras, están separadas por un guión.
+x-«B6» Los nombres de las clases no contienen letras mayúsculas, espacios, transliteración y nombres de etiquetas, solo letras y palabras en inglés. Si el nombre de una clase consta de varias palabras, están separadas por un guión.
 
 x-«B7» El atributo href de los enlaces de navegación de Studio y Portafolio contiene una ruta relativa a los archivos HTML de estas páginas. Cuando hace clic en un enlace, accede a la página correspondiente en la pestaña del navegador actual.
 
@@ -60,9 +60,9 @@ x-«B14» No hay elementos adicionales, como intervalos o enlaces, dentro del ma
 C-El diseño
 «C1» No hay estilos de elementos globales excepto <body>.
 
-«C2» Los selectores de clase se utilizan para diseñar.
+x-«C2» Los selectores de clase se utilizan para diseñar.
 
-«C3» En los estilos faltan !important.
+x-«C3» En los estilos faltan !important.
 
 «C4» Los elementos interactivos (botones y enlaces), al pasar el cursor o enfocar con el teclado, tienen un estado activo especificado en el diseño (el cambio de color).
 

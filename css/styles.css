@@ -67,7 +67,8 @@ footer {
 .hero-title,
 .hero-button,
 .address-link,
-button:hover {
+button:hover,
+button:focus {
   color: var(--color-white);
 }
 
@@ -83,7 +84,8 @@ button {
 }
 
 .hero-button,
-button:hover {
+button:hover,
+button:focus {
   background-color: var(--color-blue);
 }
 
