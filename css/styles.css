@@ -10,6 +10,7 @@
   --color-black: #212121;
   --color-white: #ffffff;
   --color-blue: #2196f3;
+  --color-blue-active: #188ce8;
   --color-gray: #757575;
   --color-hero: #2f303a;
   --color-light-gray: #e5e5e5;
@@ -39,12 +40,6 @@ body {
   text-transform: uppercase;
 }
 
-.hero-button,
-.button-item:hover,
-.button-item:focus {
-  background-color: var(--color-blue);
-}
-
 .hero,
 footer {
   background-color: var(--color-hero);
@@ -65,6 +60,18 @@ footer {
   color: var(--color-black);
 }
 /* seccion con hover y focus */
+/* otro color del boton en index? */
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--color-blue-active);
+}
+
+.hero-button,
+.button-item:hover,
+.button-item:focus {
+  background-color: var(--color-blue);
+}
+
 .menu-link:hover,
 .menu-link:focus,
 .contact-link:hover,
@@ -79,6 +86,11 @@ footer {
   color: var(--color-white);
 }
 /* ------------------------------ */
+
+.hero-button,
+.button-item {
+  cursor: pointer;
+}
 
 .hero-title,
 .hero-button,
