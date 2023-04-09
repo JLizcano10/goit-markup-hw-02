@@ -7,6 +7,7 @@
   --font-size-14: 14px;
   --font-size-16: 16px;
   --letter-spacing: 0.03em;
+  --color-logo-black: #000000;
   --color-black: #212121;
   --color-white: #ffffff;
   --color-blue: #2196f3;
@@ -26,10 +27,14 @@ body {
   color: var(--color-black);
 }
 
-.logo {
+.logo-head,
+.logo-foot {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
-  color: var(--color-blue);
+}
+
+.logo-head {
+  color: var(--color-logo-black);
 }
 
 .title-invisible {
@@ -59,8 +64,7 @@ footer {
 .box-title {
   color: var(--color-black);
 }
-/* seccion con hover y focus */
-/* otro color del boton en index? */
+/* SECCION HOVER Y FOCUS */
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--color-blue-active);
@@ -72,6 +76,8 @@ footer {
   background-color: var(--color-blue);
 }
 
+.logo-head:hover,
+.logo-foot:hover,
 .menu-link:hover,
 .menu-link:focus,
 .contact-link:hover,
@@ -92,6 +98,7 @@ footer {
   cursor: pointer;
 }
 
+.logo-foot,
 .hero-title,
 .hero-button,
 .address-link {
@@ -167,7 +174,8 @@ footer {
   line-height: 1.1;
 }
 
-.logo,
+.logo-head,
+.logo-foot,
 .picture-title,
 .team-title,
 .team-name,
