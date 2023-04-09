@@ -27,13 +27,13 @@ body {
   color: var(--color-black);
 }
 
-.logo-head,
-.logo-foot {
+.logo {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
+  color: var(--color-blue);
 }
 
-.logo-head {
+.studio-head {
   color: var(--color-logo-black);
 }
 
@@ -76,8 +76,6 @@ footer {
   background-color: var(--color-blue);
 }
 
-.logo-head:hover,
-.logo-foot:hover,
 .menu-link:hover,
 .menu-link:focus,
 .contact-link:hover,
@@ -98,7 +96,7 @@ footer {
   cursor: pointer;
 }
 
-.logo-foot,
+.studio-foot,
 .hero-title,
 .hero-button,
 .address-link {
@@ -174,8 +172,7 @@ footer {
   line-height: 1.1;
 }
 
-.logo-head,
-.logo-foot,
+.logo,
 .picture-title,
 .team-title,
 .team-name,
